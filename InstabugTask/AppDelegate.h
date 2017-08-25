@@ -12,7 +12,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (nonatomic, copy) void(^backgroundTransferCompletionHandler)();
+@property (nonatomic, strong) void(^backgroundTransferCompletionHandler)();
 
 @end
 

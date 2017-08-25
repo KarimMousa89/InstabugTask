@@ -30,7 +30,7 @@
 
 @property (nonatomic) int lastProductId;
 
-@property (nonatomic) id<ProductsListPresenterViewDelegate> view;
+@property (nonatomic,weak) id<ProductsListPresenterViewDelegate> view;
 
 @end
 

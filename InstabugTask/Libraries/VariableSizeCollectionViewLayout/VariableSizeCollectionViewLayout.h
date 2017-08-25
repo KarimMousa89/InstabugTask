@@ -16,7 +16,7 @@
 
 @interface VariableSizeCollectionViewLayout : UICollectionViewLayout
 
-@property (nonatomic,strong) id<VariableSizeCollectionViewLayoutDelegate> delegate;
+@property (nonatomic,weak) id<VariableSizeCollectionViewLayoutDelegate> delegate;
 
 -(void)reset;
 
